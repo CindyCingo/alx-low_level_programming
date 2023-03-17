@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -Prints the alphabet.
+ * main - Prints the alphabet.
  *
  * Return: Always 0 (Success)
  */
@@ -12,7 +12,7 @@ char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 	for (i = 0; i < 52; i++)
 	{
-		putchat(alp[i]);
+		putchar(alp[i]);
 	}
 	putchar('\n');
 	return (0);
