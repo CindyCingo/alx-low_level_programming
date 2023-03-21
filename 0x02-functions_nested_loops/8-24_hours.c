@@ -1,17 +1,15 @@
 #include "main.h"
- 
 /**
  * jack_bauer - prints the minutes of a day
- * 
  * Return: no return
  */
 void jack_bauer(void)
 {
 	int a, b, c, d;
 
-	for (a = 0, a <= 2; a++)
+	for (a = 0; a <= 2; a++)
 	{
-		for (b - 0; b <= 9; b++)
+		for (b = 0; b <= 9; b++)
 		{
 			for (c = 0; c <= 5; b++)
 			{
@@ -24,7 +22,7 @@ void jack_bauer(void)
 					_putchar(58);
 					_putchar(c + 48);
 					_putchar(d + 48);
-					_putchar('\n')
+					_putchar('\n');
 				}
 			}
 		}
