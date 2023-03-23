@@ -11,7 +11,7 @@ int co, sp;
 
 if (n <= 0)
 {
-_putcahr('\n');
+_putchar('\n');
 }
 
 else
@@ -20,12 +20,12 @@ else
 for (co = 1; co <= n; co++)
 {
 
-for (sp =1; sp < co; sp++)
+for (sp = 1; sp < co; sp++)
 {
 _putchar(' ');
 }
 _putchar('\\');
-_putchar('\n')
+_putchar('\n');
 }
 }
 }
