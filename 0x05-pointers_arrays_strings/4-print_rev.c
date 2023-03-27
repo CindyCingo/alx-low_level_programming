@@ -1,26 +1,26 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * print_rev - imprise en reversa
- * @s: string
- * return: 0
+ * print_rev - prints a strong in reverse
+ * @s: The string to print
+ * return: void
  */
-void print_rev(char *s)
+
+void print_rev(char *s
+		)
 {
-	int longi = 0;
 
-	int 0;
+	int c = 0;
 
-	while (*s != '\0')
+	while (s[c] != '\0')
 	{
-		longi++;
-		s++;
-	}
-	s--;
-	for (o = longi; o > 0; o--)
-	{
-		_putchar(*s);
-		s--;
+	c++;
 	}
 
+	for (c -= 1; c >= 0; c--)
+	{
+	_putchar(s[c]);
+	}
 	_putchar('\n');
 }
